@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Modificar o prorrogar mi TIE? | Machuca & Abogados</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter & Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            global: '#093D51',   /* Color global */
+                            text: '#000000',     /* Texto */
+                            emphasis: '#B88A16', /* Énfasis */
+                            secondary: '#BE986E',/* Secundario */
+                            white: '#FFFFFF',    /* Blanco */
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-white text-brand-text font-sans antialiased selection:bg-brand-emphasis selection:text-white">
+
+    <!-- BARRA SUPERIOR / CONTACTO RÁPIDO -->
+    <div class="bg-brand-global text-slate-200 text-xs py-2 border-b border-brand-global/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-2">
+            <p>Especialistas en Derecho de Extranjería y Nacionalidad en España | Actuamos en toda España</p>
+            <div class="flex items-center space-x-6">
+                <span>📞 +34 639 21 40 52</span>
+                <span>✉️ legal@aliciamachuca-abogada.es</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER / NAVBAR CON LOGO OFICIAL -->
+    <header class="sticky top-0 z-50 bg-brand-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
+            <div class="flex items-center">
+                <!-- LOGO OFICIAL SIN EDITAR -->
+                <a href="#" class="flex items-center">
+                    <img src="logo.jpg.jpeg" alt="Machuca & Abogados Logo" class="h-16 w-auto object-contain">
+                </a>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-brand-text">
+                <a href="#vias" class="hover:text-brand-emphasis transition">Modificación y Prórrogas</a>
+                <a href="#plazos" class="hover:text-brand-emphasis transition">Control de Plazos</a>
+                <a href="#abogada" class="hover:text-brand-emphasis transition">Dirección Letrada</a>
+                <a href="#contacto" class="bg-brand-global hover:bg-brand-emphasis text-white px-5 py-2.5 rounded-lg transition shadow-sm">Estudio Personalizado</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative bg-brand-global text-brand-white py-24 lg:py-32 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#B88A16_1px,transparent_1px)] [background-size:20px_20px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <span class="inline-block bg-[#B88A16]/20 text-[#facc15] border border-[#B88A16]/40 text-xs font-semibold px-4 py-1.5 rounded-full uppercase tracking-wider">
+                        Regularización Extraordinaria 2026 · Vigencia de 1 Año
+                    </span>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold tracking-tight leading-tight">
+                        ¿Modificar o prorrogar mi TIE <span style="color: #BE986E;" class="italic">por regularización extraordinaria?</span>
+                    </h1>
+                    <p class="text-lg sm:text-xl text-slate-200 font-light max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Tu autorización concede 1 año de residencia. Antes de que caduque, debes estudiar cuál es la vía adecuada para mantener tus derechos legales en España. ¡No esperes al último momento!
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#contacto" style="background-color: #B88A16;" class="hover:opacity-90 text-white font-medium text-center px-8 py-4 rounded-xl shadow-lg transition text-base">
+                            Estudiar Mi Caso con un Abogado
+                        </a>
+                        <a href="#vias" style="border-color: #BE986E; color: #BE986E;" class="bg-brand-global hover:bg-brand-global/80 border text-center font-medium px-8 py-4 rounded-xl transition text-base">
+                            Ver Opciones Legales
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Formulario de Captación -->
+                <div class="lg:col-span-5 bg-brand-white text-brand-text p-8 rounded-2xl shadow-2xl border-t-4" style="border-color: #B88A16;">
+                    <h3 class="text-2xl font-serif font-bold mb-2 text-brand-global">Consulta tu Expediente</h3>
+                    <p class="text-sm text-slate-700 mb-6">Analizamos tu situación laboral y personal para valorar si corresponde modificación o prórroga.</p>
+                    <form action="#contacto" method="POST" class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Nombre y Apellidos</label>
+                            <input type="text" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#B88A16] text-sm" placeholder="Ej. María Pérez">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Correo Electrónico</label>
+                            <input type="email" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#B88A16] text-sm" placeholder="tucorreo@email.com">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Teléfono / WhatsApp</label>
+                            <input type="tel" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#B88A16] text-sm" placeholder="+34 000 000 000">
+                        </div>
+                        <button type="submit" class="w-full bg-brand-global hover:bg-[#B88A16] text-white font-medium py-3.5 rounded-lg transition shadow-md text-sm">
+                            Solicitar Valoración Profesional
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: LAS 3 VÍAS / OPCIONES LEGALES -->
+    <section id="vias" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span style="color: #B88A16;" class="text-xs font-bold uppercase tracking-widest">Análisis Normativo 2026</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-global mt-2 mb-4">
+                    ¿Cuáles son las opciones para mantener tu residencia?
+                </h2>
+                <p class="text-slate-700 text-lg">
+                    Dependiendo de tu grado de inserción laboral y circunstancias personales, la normativa contempla distintas vías de renovación:
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- 1. MODIFICACIÓN -->
+                <div class="bg-brand-white border border-slate-200 p-8 rounded-2xl shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="inline-block bg-[#093D51]/10 text-brand-global text-xs font-bold px-3 py-1 rounded-md mb-4">🔵 1. Vía Principal</div>
+                        <h3 class="text-2xl font-serif font-bold text-brand-global mb-3">Modificación al Régimen Ordinario</h3>
+                        <p class="text-slate-700 text-sm mb-6 leading-relaxed">
+                            Durante los 2 meses anteriores a la caducidad, puedes solicitar la modificación si cumples los requisitos de acceso al régimen ordinario según tu situación personal y laboral.
+                        </p>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-100 mb-6 space-y-2 text-xs text-brand-text">
+                            <p class="font-bold text-brand-global mb-1">Aspectos clave a revisar:</p>
+                            <p>✅ Vida laboral, contratos y altas en Seguridad Social.</p>
+                            <p>✅ Situación laboral actual o actividad por cuenta propia.</p>
+                            <p>✅ Situación familiar y personal.</p>
+                        </div>
+                    </div>
+                    <div class="border-t border-slate-100 pt-4 text-xs text-amber-800 font-medium">
+                        ⚠️ No existe un número "mágico" de meses cotizados; cada expediente se analiza de forma individual.
+                    </div>
+                </div>
+
+                <!-- 2. PRÓRROGA EXCEPCIONAL -->
+                <div class="bg-brand-white border border-slate-200 p-8 rounded-2xl shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="inline-block bg-[#B88A16]/20 text-[#8a6538] text-xs font-bold px-3 py-1 rounded-md mb-4">🟠 2. Vía Excepcional</div>
+                        <h3 class="text-2xl font-serif font-bold text-brand-global mb-3">Prórroga de 1 Año</h3>
+                        <p class="text-slate-700 text-sm mb-6 leading-relaxed">
+                            Si no te es posible realizar la modificación en este momento, la normativa contempla de forma excepcional solicitar una prórroga de un año acreditando:
+                        </p>
+                        <ul class="space-y-3 text-xs text-slate-700 mb-6">
+                            <li class="flex items-start space-x-2">
+                                <span style="color: #B88A16;" class="font-bold">🔎</span> 
+                                <span><strong>Búsqueda activa de empleo:</strong> debidamente inscrito en el servicio público de empleo.</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <span style="color: #B88A16;" class="font-bold">📄</span> 
+                                <span><strong>Esfuerzo de integración:</strong> informe favorable emitido por el órgano competente de la Comunidad Autónoma.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="border-t border-slate-100 pt-4 text-xs text-slate-500 font-medium">
+                        Alternativa sólida cuando el empleo estable aún está en proceso de consolidación.
+                    </div>
+                </div>
+
+                <!-- 3. SUPUESTOS ESPECIALES -->
+                <div class="bg-brand-white border border-slate-200 p-8 rounded-2xl shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="inline-block bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-md mb-4">🟢 3. Supuestos Especiales</div>
+                        <h3 class="text-2xl font-serif font-bold text-brand-global mb-3">Prórroga de hasta 4 Años</h3>
+                        <p class="text-slate-700 text-sm mb-6 leading-relaxed">
+                            Diseñada para cuando existen circunstancias justificadas que impiden acceder al mercado de trabajo.
+                        </p>
+                        <div class="bg-emerald-50/50 p-4 rounded-xl border border-emerald-100 mb-6 space-y-2 text-xs text-slate-700">
+                            <p class="font-bold text-emerald-900 mb-1">Supuestos contemplados:</p>
+                            <p>🏥 Situaciones de enfermedad grave.</p>
+                            <p>♿ Discapacidades acreditadas.</p>
+                            <p>👴 Haber alcanzado la edad legal de jubilación.</p>
+                        </div>
+                    </div>
+                    <div class="border-t border-slate-100 pt-4 text-xs text-slate-500 font-medium">
+                        Siempre que se cumplan estrictamente los requisitos legales establecidos.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: CONTROL DE PLAZOS Y CONSEJO LEGAL -->
+    <section id="plazos" class="py-20 bg-brand-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-6 space-y-6">
+                    <span style="color: #B88A16;" class="text-xs font-bold uppercase tracking-widest">⏰ MUY IMPORTANTE</span>
+                    <h2 class="text-3xl font-serif font-bold text-brand-global">
+                        Controla los plazos para evitar sanciones o caducidades
+                    </h2>
+                    <p class="text-slate-700 leading-relaxed">
+                        Un error de cálculo temporal puede comprometer tu legalidad en España. Ten muy presentes los periodos oficiales habilitados por la administración:
+                    </p>
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start space-x-3">
+                            <div class="w-6 h-6 rounded-full bg-[#BE986E]/30 text-brand-global flex items-center justify-center font-bold text-xs mt-1">📌</div>
+                            <div>
+                                <h4 class="font-bold text-brand-global">Periodo ordinario</h4>
+                                <p class="text-sm text-slate-700">Durante los <strong>2 meses anteriores</strong> al vencimiento de tu autorización.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-6 h-6 rounded-full bg-[#BE986E]/30 text-brand-global flex items-center justify-center font-bold text-xs mt-1">📌</div>
+                            <div>
+                                <h4 class="font-bold text-brand-global">Presentación posterior</h4>
+                                <p class="text-sm text-slate-700">Puede presentarse dentro de los <strong>3 meses posteriores</strong> a su caducidad, aunque hacerlo fuera de plazo puede dar lugar a un procedimiento sancionador.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-6 h-6 rounded-full bg-[#BE986E]/30 text-brand-global flex items-center justify-center font-bold text-xs mt-1">⚖️</div>
+                            <div>
+                                <h4 class="font-bold text-brand-global">Efecto de prórroga cautelar</h4>
+                                <p class="text-sm text-slate-700">La presentación de la solicitud en estos plazos prorroga la validez de la autorización anterior hasta que se resuelva el procedimiento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-6 bg-brand-global text-brand-white p-10 rounded-2xl shadow-xl relative border border-[#BE986E]/30 space-y-6">
+                    <h3 class="text-2xl font-serif font-bold">⚖️ Nuestro Consejo Legal</h3>
+                    <p class="text-slate-200 text-sm leading-relaxed">
+                        No esperes a que tu tarjeta esté a punto de caducar. Una correcta planificación durante este primer año puede ser determinante para preparar la documentación y elegir la vía jurídica que mejor se adapte a tu situación.
+                    </p>
+                    <div class="p-4 bg-brand-white/10 rounded-xl border border-white/10 text-xs space-y-2">
+                        <p class="font-bold text-[#facc15]">👨‍⚖️ Machuca &amp; Abogados</p>
+                        <p>Estudiamos tu expediente, revisamos tu situación laboral y personal y valoramos si corresponde solicitar una modificación o, excepcionalmente, una prórroga.</p>
+                    </div>
+                    <div class="space-y-2 text-sm font-medium" style="color: #BE986E;">
+                        <p>🇪🇸 Actuamos en toda España</p>
+                        <p>📱 WhatsApp: +34 639 21 40 52</p>
+                        <p>🌐 aliciamachuca-abogada.es</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CONTACTO / CTA FINAL -->
+    <section id="contacto" class="py-20 bg-brand-global text-brand-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span style="color: #BE986E;" class="text-xs font-bold uppercase tracking-widest">Asesoría Profesional</span>
+            <h2 class="text-3xl sm:text-4xl font-serif font-bold mt-2 mb-4">
+                Contacta con nosotros y estudiaremos tu caso de forma personalizada
+            </h2>
+            <p class="text-slate-200 mb-10 text-lg">
+                Completa el formulario y un especialista en extranjería e inmigración se pondrá en contacto contigo.
+            </p>
+            <div class="bg-brand-white text-brand-text p-8 sm:p-10 rounded-2xl shadow-2xl text-left border-t-4" style="border-color: #B88A16;">
+                <form action="#" method="POST" class="space-y-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Nombre y Apellidos</label>
+                            <input type="text" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#B88A16] text-sm" placeholder="Tu nombre completo">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Teléfono / WhatsApp</label>
+                            <input type="tel" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#B88A16] text-sm" placeholder="+34 000 000 000">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Correo Electrónico</label>
+                        <input type="email" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#B88A16] text-sm" placeholder="tucorreo@email.com">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Cuéntanos tu situación actual (¿Trabajas, buscas empleo, situación familiar?)</label>
+                        <textarea rows="4" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#B88A16] text-sm" placeholder="Detalla cuándo caduca tu autorización de la regularización extraordinaria..."></textarea>
+                    </div>
+                    <button type="submit" style="background-color: #B88A16;" class="hover:opacity-90 text-white font-medium py-4 rounded-lg transition shadow-lg text-base">
+                        Enviar Consulta al Despacho
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER BASADO EN REFERENCIA -->
+    <footer id="abogada" class="bg-brand-global text-slate-300 py-16 border-t border-brand-global">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-12 pb-12 border-b border-white/10">
+                <div class="md:col-span-5 space-y-4">
+                    <h3 class="font-serif text-xl font-bold text-white tracking-wide">Machuca &amp; Abogados</h3>
+                    <p class="text-sm text-slate-300 leading-relaxed max-w-sm">
+                        Especialistas en derecho de extranjería, nacionalidad e inmigración en España. Acompañamiento legal cercano, riguroso y transparente para garantizar tus derechos y tu tranquilidad.
+                    </p>
+                </div>
+                <div class="md:col-span-3 space-y-4">
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-[#B88A16]">Enlaces Rápidos</h4>
+                    <ul class="space-y-2.5 text-sm">
+                        <li><a href="#vias" class="hover:text-white transition">Modificación y Prórrogas</a></li>
+                        <li><a href="#plazos" class="hover:text-white transition">Control de Plazos</a></li>
+                        <li><a href="#contacto" class="hover:text-white transition">Estudio Personalizado</a></li>
+                    </ul>
+                </div>
+                <div class="md:col-span-4 space-y-4">
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-[#B88A16]">Contacto Directo</h4>
+                    <ul class="space-y-2.5 text-sm">
+                        <li class="flex items-center space-x-2">
+                            <span>📞</span>
+                            <span>+34 639 21 40 52</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span>✉️</span>
+                            <span>legal@aliciamachuca-abogada.es</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span>🇪🇸</span>
+                            <span>Actuamos en toda España</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
+                <p>&copy; 2026 Machuca &amp; Abogados. Todos los derechos reservados.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-white transition">Política de Privacidad</a>
+                    <a href="#" class="hover:text-white transition">Aviso Legal</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+    <a href="https://wa.me/34639214052?text=Hola,%20deseo%20consultar%20sobre%20si%20debo%20modificar%20o%20prorrogar%20mi%20TIE%20por%20la%20Regularización%20Extraordinaria." 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       aria-label="Contactar por WhatsApp"
+       class="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#20ba5a] text-white p-4 rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 group">
+        <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+        </svg>
+        <span class="absolute right-full mr-3 bg-brand-white text-brand-text text-xs font-semibold px-3 py-1.5 rounded-lg shadow-md whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+          ¡Chatea con un Abogado!
+        </span>
+    </a>
+
+</body>
+</html>
